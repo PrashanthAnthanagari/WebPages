@@ -105,10 +105,11 @@ body {
     font-weight: 600;
     gap: 10px;
 }
+
 .two-sections {
     display: flex;
     flex-direction: row;
-    gap:20px;
+    gap: 20px;
 }
 
 .hero-section {
@@ -133,58 +134,68 @@ body {
     width: 100%;
     background-color: rgb(206, 124, 124);
 }
+
 .heroleft-image2 {
     display: flex;
     width: 100%;
     background-color: rgb(201, 122, 122);
 }
+
 .heroleft-image3 {
     display: flex;
     width: 100%;
     background-color: #d5e0e8;
 }
+
 .heroleft-image4 {
     display: flex;
     width: 100%;
     background-color: rgb(207, 74, 74);
 }
+
 .heroleft-image5 {
     display: flex;
     width: 100%;
-    background-color: #d5e0e8;;
+    background-color: #d5e0e8;
+    ;
 }
 
 .heroleft-para {
     font-size: 13px;
     color: rgb(4, 125, 4);
 }
+
 .heroleft-para1 {
     position: absolute;
     font-weight: 700;
     font-size: 14px;
     color: rgb(11, 11, 11);
 }
+
 .heroleft-para2 {
     position: absolute;
     align-items: center;
-    width:80px;
-    left:320px;
+    width: 80px;
+    left: 320px;
     font-weight: 700;
     font-size: 14px;
     color: rgb(11, 11, 11);
 }
+
 .heroleft-para21 {
     font-size: 40px;
     font-weight: 400;
     color: red;
 }
+
 .heroleft-para3 {
     position: absolute;
-    top:329px;
-    left:530px;
+    top: 329px;
+    left: 530px;
     font-weight: 500;
     font-size: 10px;
 }
+
 .heroleft-para4 {
     position: absolute;
     align-items: center;
@@ -193,35 +204,42 @@ body {
     color: yellow;
 
 }
+
 .heroleft-para41 {
-    color:white;
+    color: white;
     font-size: 10px;
 }
+
 .heroleft-buttton1 {
     position: absolute;
     top: 220px;
     left: 670px;
 }
+
 .heroleft-para5 {
     position: absolute;
     font-weight: 700;
     font-size: 14px;
     color: rgb(11, 11, 11);
 }
+
 .heroleft-para51 {
-  font-size: 20px;  
+    font-size: 20px;
 }
+
 .heroleft-para512 {
     font-weight: 500;
 }
+
 .heroleft-bottom {
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
     width: 1100px;
-    height:500px;
+    height: 500px;
     background: linear-gradient(135deg, rgb(220, 220, 119) 50%, rgb(213, 89, 110) 50%);
 }
+
 .hero-bottom-heading {
     position: absolute;
     display: flex;
@@ -230,13 +248,15 @@ body {
     top: 450px;
     left: 100px;
 }
+
 .women-shopping {
     display: flex;
     position: absolute;
     width: 300px;
     height: 500px;
-    left:350px;
+    left: 350px;
 }
+
 .hero-image1 {
     display: flex;
     position: absolute;
@@ -246,6 +266,7 @@ body {
     top: 443px;
     background: linear-gradient(135deg, rgb(86, 39, 240) 60%, rgb(206, 206, 245) 40%);
 }
+
 .hero-dell {
     position: absolute;
     display: flex;
@@ -254,6 +275,7 @@ body {
     width: 250px;
     height: 150px;
 }
+
 .hero-image2 {
     display: flex;
     position: absolute;
@@ -263,6 +285,7 @@ body {
     top: 687px;
     background: linear-gradient(to right, rgb(238, 200, 8), rgb(246, 238, 9), rgb(248, 248, 245))
 }
+
 .hero-nike {
     position: absolute;
     display: flex;
@@ -271,42 +294,66 @@ body {
     width: 270px;
     height: 200px;
 }
+
 .dell-heading {
     color: white;
     font-style: italic;
     position: absolute;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 300;
-    left:30px;
-    top:110px;
+    left: 30px;
+    top: 110px;
 }
+
 .dell-heading1 {
     font-size: 25px;
     font-weight: bolder;
     font-style: italic;
 }
+
 .nike-heading {
     font-style: italic;
     position: absolute;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
-    left:30px;
-    top:155px;
+    left: 30px;
+    top: 155px;
 }
+
 .nike-heading1 {
     font-size: 25px;
     font-weight: bolder;
     font-style: italic;
 }
+
 .nike-rate {
     position: absolute;
     font-size: 17px;
     font-weight: 600;
-    left:115px;
-    top:185px;
+    left: 115px;
+    top: 185px;
 }
+
 .test-monials {
     background-color: aqua;
+    align-items: center;
+    justify-content: center;
     width: 300px;
     height: 800px;
+}
+.test-heading {
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgb(157, 145, 145);
+    margin-left: 20px;
+}
+.time {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: rgb(176, 172, 172);
+    margin-left: 80px;
+    font-size: 25px;
+    font-weight: 500;
 }
