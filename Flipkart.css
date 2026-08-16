@@ -353,7 +353,38 @@ body {
     justify-items: center;
     align-items: center;
     color: rgb(176, 172, 172);
-    margin-left: 80px;
-    font-size: 25px;
+    margin-left: 90px;
+    font-size: 18px;
     font-weight: 500;
+}
+.testmonial-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    align-items: center;
+}
+.pigeon-heading {
+    position: absolute;
+    top:185px;
+}
+.shoes-heading {
+    position: absolute;
+    font-size: 30px;
+    left:1175px;
+    color:rgb(240, 140, 140);
+    top:340px;
+}
+.toy-heading {
+    position: absolute;
+    top:480px;
+}
+.button1 {
+    background-color: #5474f6;
+    border:1px solid #5474f6;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 35%;
 }
