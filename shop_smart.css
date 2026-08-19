@@ -3,16 +3,110 @@
     padding: 0px;
     margin: 0px;
 }
+
 body {
     font-family: "Inter", sans-serif;
     /* background-image: url(/images/hero-right-image.jpg);
     background-size:1540px 780px;
     background-repeat: no-repeat;
     overflow: hidden; */
-    background: linear-gradient(135deg, rgb(71, 87, 235, 1),rgba(146, 155, 238, 1), rgb(247, 247, 249));
+    /* background: linear-gradient(135deg, rgb(71, 87, 235, 1),rgba(146, 155, 238, 1), rgb(247, 247, 249)); */
+    background: linear-gradient(135deg,
+            #a4b0ee 100%,
+            #e4c2c7 35%,
+            #ddb0af 70%,
+            #D69F8E 0%);
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    font-size: 22px;
+    color: white;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    font-size: 22px;
+    color: white;
+}
+
+.two-sections {
+    background-image: url(/images/hero-right-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 1540px 700px;
+    height:200%;
+    overflow: hidden;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
 }
-.nav-bar {
+
+.hero-main {
+    margin-top: 200px;
+    margin-left: 70px;
+    line-height: 60px;
+}
+.hero-heading {
+    font-size: 60px;
+    font-weight: bolder;
+    color:rgb(245, 245, 244);
+    line-height: 80px;
+}
+.hero-heading1 {
+    font-size: 60px;
+    font-weight: bolder;
+    color:rgb(228, 171, 66);
+}
+.hero-para {
+    font-size: 22px;
+    color: rgb(92, 39, 39);
+}
+.buttons {
+    display: flex;
+    gap:15px;
+}
+.hero-button1 {
+    align-items: center;
+    padding:12px;
+    color:white;
+    background-color: orangered;
+    border: 1px solid orangered;
+    border-radius: 8px;
+    font-size: 20px;
+    width:35%;
+}
+.hero-button2 {
+    align-items: center;
+    padding:12px;
+    color:rgb(17, 17, 17);
+    border: 1px solid rgb(246, 236, 236);
+    border-radius: 8px;
+    font-size: 20px;
+    width:50%;
+}
+.test-monials {
+    margin-top: 50px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.image1 {
     display: flex;
     flex-direction: row;
 }
