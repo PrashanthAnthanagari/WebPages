@@ -37,16 +37,24 @@ body {
 .nav-logo {
     display: flex;
     justify-content: space-between;
-    gap: 70px;
+    gap: 40px;
     font-size: 22px;
     color: white;
+}
+
+.icon-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .two-sections {
     background-image: url(/images/hero-right-image.jpg);
     background-repeat: no-repeat;
     background-size: 1540px 700px;
-    height:200%;
+    height: 200%;
     overflow: hidden;
 }
 
@@ -62,54 +70,82 @@ body {
     margin-left: 70px;
     line-height: 60px;
 }
+
 .hero-heading {
     font-size: 60px;
     font-weight: bolder;
-    color:rgb(245, 245, 244);
+    color: rgb(245, 245, 244);
     line-height: 80px;
 }
+
 .hero-heading1 {
     font-size: 60px;
     font-weight: bolder;
-    color:rgb(228, 171, 66);
+    color: rgb(228, 171, 66);
 }
+
 .hero-para {
     font-size: 22px;
     color: rgb(92, 39, 39);
 }
+
 .buttons {
     display: flex;
-    gap:15px;
+    gap: 15px;
 }
+
 .hero-button1 {
     align-items: center;
-    padding:12px;
-    color:white;
+    padding: 12px;
+    color: white;
     background-color: orangered;
     border: 1px solid orangered;
     border-radius: 8px;
     font-size: 20px;
-    width:35%;
+    width: 35%;
 }
+
 .hero-button2 {
     align-items: center;
-    padding:12px;
-    color:rgb(17, 17, 17);
+    padding: 12px;
+    color: rgb(17, 17, 17);
     border: 1px solid rgb(246, 236, 236);
     border-radius: 8px;
     font-size: 20px;
-    width:50%;
+    width: 50%;
 }
+
 .test-monials {
-    margin-top: 50px;
+    margin-top: 100px;
     margin-left: 70px;
     display: flex;
     flex-direction: row;
-    gap:150px;
+    gap: 180px;
 }
+
 .image1 {
     display: flex;
     flex-direction: row;
     align-items: center;
 
+}
+
+.test-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.test-heading1 {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.test-para {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
 }
